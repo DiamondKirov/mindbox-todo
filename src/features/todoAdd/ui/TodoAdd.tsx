@@ -8,7 +8,7 @@ export const TodoAdd: FC<ITodoAdd> = ({ className = "", onSubmit }) => {
   const [value, setValue] = useState("");
   const handleSubmit = (e: FormEvent) => {
     e.preventDefault();
-    if (value) {
+    if (value.trim()) {
       if (onSubmit) onSubmit(value);
       setValue("");
     }

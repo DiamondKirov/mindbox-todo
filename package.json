@@ -3,10 +3,10 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://diamondkirov.github.io/mindbox-todo",
+  "homepage": "https://DiamondKirov.github.io/mindbox-todo",
   "scripts": {
     "dev": "vite",
-    "start": "vite",
+    "start": "vite --open",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
